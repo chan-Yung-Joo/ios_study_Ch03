@@ -28,7 +28,7 @@ class ViewController: UIViewController {
 
     // 버튼을 눌렀을때 동작하는 액션 함수 구현
     @IBAction func btnResizeImage(_ sender: UIButton) {
-        let scale:CGFloat = 2.0
+        let scale:CGFloat = 2.0 // 크기를 늘릴 값 셋팅
         var newWidth:CGFloat, newHeight:CGFloat
         
         if(isZoom){ // isZoom == true(현재 상태가 확대일때)
