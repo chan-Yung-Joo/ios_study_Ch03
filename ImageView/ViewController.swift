@@ -26,6 +26,7 @@ class ViewController: UIViewController {
         imgView.image = imgOn
     }
 
+    // 버튼을 눌렀을때 동작하는 액션 함수 구현
     @IBAction func btnResizeImage(_ sender: UIButton) {
         let scale:CGFloat = 2.0
         var newWidth:CGFloat, newHeight:CGFloat
