@@ -50,10 +50,11 @@ class ViewController: UIViewController {
     
     // 스위치 클릭시 동작하는 액션 함수
     @IBAction func switchImageOnOff(_ sender: UISwitch) {
-        if sender.isOn{
+        
+        if sender.isOn{ // 스위치가 ON인 경우
             imgView.image = imgOn
         }
-        else {
+        else { // 스위치가 OFF인 경우
             imgView.image = imgOff
         }
     }
